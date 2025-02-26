@@ -1,0 +1,29 @@
+var stack1 = [];
+
+if (procurar(document, 'span#title')) {
+    console.log('Elemento encontrado!');
+} else {
+    stack1 = Array.from(document.querySelectorAll('*')).filter(x => x.shadowRoot != null);
+    
+    while (stack1.length > 0) {
+        var currentElement = stack1.pop();
+        
+        if (procurar(currentElement.shadowRoot, 'div#title-and-annotations')) {
+            procurar(currentElement.shadowRoot, 'div#title-and-annotations')
+            break;
+        }
+
+        stack1.push(...Array.from(currentElement.shadowRoot.querySelectorAll('*'))
+            .filter(x => x.shadowRoot != null));
+    }
+}
+
+function procurar(root, selector) {
+    if (root) {
+        var element = root.querySelector(selector);
+        if (element) {
+            return element;
+        }
+    }
+    return null;
+}
