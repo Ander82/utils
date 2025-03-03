@@ -1,0 +1,27 @@
+2025-03-02 23:21:02,276 - INFO - Verificando existência do arquivo de extração...
+2025-03-02 23:21:02,276 - ERROR - Erro ao gerar relatório Excel: Arquivo não encontrado: C:\Users\ander\Documents\treinamento\rpa_orquestrador_c_encerrar\arquivos\resultado_extracao.txt
+2025-03-02 23:21:57,214 - INFO - Iniciando execução manual dos workflows...
+2025-03-02 23:21:57,215 - INFO - Iniciando extração da chave da nota fiscal...
+2025-03-02 23:21:59,216 - INFO - Texto extraído do PDF:
+nota fiscal eletrônica (nf-e)
+chave de acesso:
+5124 1115 0091 7800 0170 5500 2000 4100 6911 0934 2453
+dados da nf-e:
+número: 000000
+versão xml: 4.00
+modelo: 55
+série: 0
+data de emissão: 01/01/2025 00:00:00-00:00
+valor total: 0,00
+emitente: empresa xyz
+cnpj: 00.000.000/0000-00
+uf: xx
+destinatário: empresa abc
+tipo da operação: 1 - saída
+situação: autorizada
+2025-03-02 23:21:59,218 - INFO - Chave extraída com sucesso: 51241115009178000170550020004100691109342453
+2025-03-02 23:21:59,219 - INFO - Chave salva no arquivo: C:\Users\ander\Documents\treinamento\rpa_orquestrador_c_encerrar\arquivos\chave_acesso.txt
+2025-03-02 23:21:59,219 - INFO - Verificando existência do arquivo de extração...
+2025-03-02 23:21:59,219 - ERROR - Erro ao gerar relatório Excel: Arquivo não encontrado: C:\Users\ander\Documents\treinamento\rpa_orquestrador_c_encerrar\arquivos\resultado_extracao.txt
+2025-03-02 23:21:59,219 - INFO - Todos os workflows foram executados com sucesso!
+2025-03-02 23:23:31,506 - INFO - Agendador iniciado às 23:23:31. Aguardando execução dos workflows...

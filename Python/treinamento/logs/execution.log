@@ -1,0 +1,622 @@
+2025-03-02 21:51:06,535 - INFO - Chave de Acesso lida com sucesso: 51241115009178000170550020004100691109342453
+2025-03-02 21:51:08,158 - INFO - Acessando o site...
+2025-03-02 21:51:16,277 - INFO - Preenchendo a chave de acesso...
+2025-03-02 21:51:16,339 - INFO - Chave de acesso preenchida com sucesso!
+2025-03-02 21:51:16,339 - INFO - Obtendo sitekey do CAPTCHA...
+2025-03-02 21:51:16,351 - INFO - Enviando CAPTCHA para resolução...
+2025-03-02 21:51:21,986 - INFO - CAPTCHA resolvido com sucesso!
+2025-03-02 21:51:21,986 - INFO - Inserindo solução do CAPTCHA...
+2025-03-02 21:51:22,767 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 21:51:33,142 - INFO - Extraindo dados da consulta...
+2025-03-02 21:51:33,148 - ERROR - Erro ao extrair dados: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#NFe > fieldset:nth-child(5)"}
+  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF704B16EE5+28773]
+	(No symbol) [0x00007FF704A825D0]
+	(No symbol) [0x00007FF704918FAA]
+	(No symbol) [0x00007FF70496F286]
+	(No symbol) [0x00007FF70496F4BC]
+	(No symbol) [0x00007FF7049C2A27]
+	(No symbol) [0x00007FF70499728F]
+	(No symbol) [0x00007FF7049BF6F3]
+	(No symbol) [0x00007FF704997023]
+	(No symbol) [0x00007FF70495FF5E]
+	(No symbol) [0x00007FF7049611E3]
+	GetHandleVerifier [0x00007FF704E6422D+3490733]
+	GetHandleVerifier [0x00007FF704E7BA13+3586963]
+	GetHandleVerifier [0x00007FF704E7144D+3544525]
+	GetHandleVerifier [0x00007FF704BDC9AA+838442]
+	(No symbol) [0x00007FF704A8D01F]
+	(No symbol) [0x00007FF704A895E4]
+	(No symbol) [0x00007FF704A89786]
+	(No symbol) [0x00007FF704A78CB9]
+	BaseThreadInitThunk [0x00007FFED99EE8D7+23]
+	RtlUserThreadStart [0x00007FFEDAFDBF2C+44]
+
+2025-03-02 21:51:33,149 - ERROR - Erro fatal no Workflow 2: Erro ao extrair os dados do site.
+2025-03-02 21:58:14,174 - INFO - Chave de Acesso lida com sucesso: 51241115009178000170550020004100691109342453
+2025-03-02 21:58:15,148 - INFO - Acessando o site...
+2025-03-02 21:58:23,403 - INFO - Preenchendo a chave de acesso...
+2025-03-02 21:58:23,462 - INFO - Chave de acesso preenchida com sucesso!
+2025-03-02 21:58:23,463 - INFO - Obtendo sitekey do CAPTCHA...
+2025-03-02 21:58:23,474 - INFO - Enviando CAPTCHA para resolução...
+2025-03-02 21:58:39,507 - INFO - CAPTCHA resolvido com sucesso!
+2025-03-02 21:58:39,507 - INFO - Tentativa 1: Inserindo solução do CAPTCHA...
+2025-03-02 21:58:40,710 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 21:58:51,102 - WARNING - Tentativa 1 falhou. Tentando novamente...
+2025-03-02 21:58:51,103 - INFO - Tentativa 2: Inserindo solução do CAPTCHA...
+2025-03-02 21:58:52,310 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 21:59:02,709 - WARNING - Tentativa 2 falhou. Tentando novamente...
+2025-03-02 21:59:02,710 - INFO - Tentativa 3: Inserindo solução do CAPTCHA...
+2025-03-02 21:59:03,941 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 21:59:14,322 - WARNING - Tentativa 3 falhou. Tentando novamente...
+2025-03-02 21:59:14,322 - ERROR - Número máximo de tentativas atingido. Falha no CAPTCHA.
+2025-03-02 21:59:14,322 - ERROR - Erro fatal no Workflow 2: Erro ao submeter o formulário após 3 tentativas.
+2025-03-02 21:59:57,835 - INFO - Chave de Acesso lida com sucesso: 51241115009178000170550020004095361685071808
+2025-03-02 21:59:58,816 - INFO - Acessando o site...
+2025-03-02 22:00:06,418 - INFO - Preenchendo a chave de acesso...
+2025-03-02 22:00:06,478 - INFO - Chave de acesso preenchida com sucesso!
+2025-03-02 22:00:06,478 - INFO - Obtendo sitekey do CAPTCHA...
+2025-03-02 22:00:06,489 - INFO - Enviando CAPTCHA para resolução...
+2025-03-02 22:00:22,950 - INFO - CAPTCHA resolvido com sucesso!
+2025-03-02 22:00:22,951 - INFO - Tentativa 1: Inserindo solução do CAPTCHA...
+2025-03-02 22:00:24,156 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 22:00:37,166 - WARNING - Tentativa 1 falhou. Tentando novamente...
+2025-03-02 22:00:37,166 - INFO - Tentativa 2: Inserindo solução do CAPTCHA...
+2025-03-02 22:00:37,170 - ERROR - Erro ao enviar CAPTCHA na tentativa 2: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id^='h-captcha-response']"}
+  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF704B16EE5+28773]
+	(No symbol) [0x00007FF704A825D0]
+	(No symbol) [0x00007FF704918FAA]
+	(No symbol) [0x00007FF70496F286]
+	(No symbol) [0x00007FF70496F4BC]
+	(No symbol) [0x00007FF7049C2A27]
+	(No symbol) [0x00007FF70499728F]
+	(No symbol) [0x00007FF7049BF6F3]
+	(No symbol) [0x00007FF704997023]
+	(No symbol) [0x00007FF70495FF5E]
+	(No symbol) [0x00007FF7049611E3]
+	GetHandleVerifier [0x00007FF704E6422D+3490733]
+	GetHandleVerifier [0x00007FF704E7BA13+3586963]
+	GetHandleVerifier [0x00007FF704E7144D+3544525]
+	GetHandleVerifier [0x00007FF704BDC9AA+838442]
+	(No symbol) [0x00007FF704A8D01F]
+	(No symbol) [0x00007FF704A895E4]
+	(No symbol) [0x00007FF704A89786]
+	(No symbol) [0x00007FF704A78CB9]
+	BaseThreadInitThunk [0x00007FFED99EE8D7+23]
+	RtlUserThreadStart [0x00007FFEDAFDBF2C+44]
+
+2025-03-02 22:00:37,171 - INFO - Tentativa 3: Inserindo solução do CAPTCHA...
+2025-03-02 22:00:37,174 - ERROR - Erro ao enviar CAPTCHA na tentativa 3: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id^='h-captcha-response']"}
+  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF704B16EE5+28773]
+	(No symbol) [0x00007FF704A825D0]
+	(No symbol) [0x00007FF704918FAA]
+	(No symbol) [0x00007FF70496F286]
+	(No symbol) [0x00007FF70496F4BC]
+	(No symbol) [0x00007FF7049C2A27]
+	(No symbol) [0x00007FF70499728F]
+	(No symbol) [0x00007FF7049BF6F3]
+	(No symbol) [0x00007FF704997023]
+	(No symbol) [0x00007FF70495FF5E]
+	(No symbol) [0x00007FF7049611E3]
+	GetHandleVerifier [0x00007FF704E6422D+3490733]
+	GetHandleVerifier [0x00007FF704E7BA13+3586963]
+	GetHandleVerifier [0x00007FF704E7144D+3544525]
+	GetHandleVerifier [0x00007FF704BDC9AA+838442]
+	(No symbol) [0x00007FF704A8D01F]
+	(No symbol) [0x00007FF704A895E4]
+	(No symbol) [0x00007FF704A89786]
+	(No symbol) [0x00007FF704A78CB9]
+	BaseThreadInitThunk [0x00007FFED99EE8D7+23]
+	RtlUserThreadStart [0x00007FFEDAFDBF2C+44]
+
+2025-03-02 22:00:37,174 - ERROR - Número máximo de tentativas atingido. Falha no CAPTCHA.
+2025-03-02 22:00:37,175 - ERROR - Erro fatal no Workflow 2: Erro ao submeter o formulário após 3 tentativas.
+2025-03-02 22:02:43,167 - INFO - Chave de Acesso lida com sucesso: 51241115009178000170550020004095361685071808
+2025-03-02 22:02:44,134 - INFO - Acessando o site...
+2025-03-02 22:02:52,089 - INFO - Preenchendo a chave de acesso...
+2025-03-02 22:02:52,153 - INFO - Chave de acesso preenchida com sucesso!
+2025-03-02 22:02:52,154 - INFO - Obtendo sitekey do CAPTCHA...
+2025-03-02 22:02:52,163 - INFO - Enviando CAPTCHA para resolução...
+2025-03-02 22:03:19,221 - INFO - CAPTCHA resolvido com sucesso!
+2025-03-02 22:03:19,221 - INFO - Tentativa 1: Inserindo solução do CAPTCHA...
+2025-03-02 22:03:20,430 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 22:03:30,879 - WARNING - Tentativa 1 falhou. Tentando novamente...
+2025-03-02 22:03:30,880 - INFO - Tentativa 2: Inserindo solução do CAPTCHA...
+2025-03-02 22:03:32,083 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 22:03:42,472 - WARNING - Tentativa 2 falhou. Tentando novamente...
+2025-03-02 22:03:42,472 - INFO - Tentativa 3: Inserindo solução do CAPTCHA...
+2025-03-02 22:03:43,718 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 22:03:54,178 - WARNING - Tentativa 3 falhou. Tentando novamente...
+2025-03-02 22:03:54,179 - ERROR - Número máximo de tentativas atingido. Falha no CAPTCHA.
+2025-03-02 22:03:54,179 - ERROR - Erro fatal no Workflow 2: Erro ao submeter o formulário após 3 tentativas.
+2025-03-02 22:04:03,541 - INFO - Chave de Acesso lida com sucesso: 51241115009178000170550020004095361685071808
+2025-03-02 22:04:04,533 - INFO - Acessando o site...
+2025-03-02 22:04:12,176 - INFO - Preenchendo a chave de acesso...
+2025-03-02 22:04:12,239 - INFO - Chave de acesso preenchida com sucesso!
+2025-03-02 22:04:12,239 - INFO - Obtendo sitekey do CAPTCHA...
+2025-03-02 22:04:12,250 - INFO - Enviando CAPTCHA para resolução...
+2025-03-02 22:04:28,803 - INFO - CAPTCHA resolvido com sucesso!
+2025-03-02 22:04:28,803 - INFO - Tentativa 1: Inserindo solução do CAPTCHA...
+2025-03-02 22:04:30,042 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 22:04:40,441 - WARNING - Tentativa 1 falhou. Tentando novamente...
+2025-03-02 22:04:40,441 - INFO - Tentativa 2: Inserindo solução do CAPTCHA...
+2025-03-02 22:04:41,116 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 22:04:53,919 - WARNING - Tentativa 2 falhou. Tentando novamente...
+2025-03-02 22:04:53,919 - INFO - Tentativa 3: Inserindo solução do CAPTCHA...
+2025-03-02 22:04:54,773 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 22:05:07,247 - WARNING - Tentativa 3 falhou. Tentando novamente...
+2025-03-02 22:05:07,247 - ERROR - Número máximo de tentativas atingido. Falha no CAPTCHA.
+2025-03-02 22:05:07,247 - ERROR - Erro fatal no Workflow 2: Erro ao submeter o formulário após 3 tentativas.
+2025-03-02 22:06:18,889 - INFO - Chave de Acesso lida com sucesso: 51241115009178000170550020004095361685071808
+2025-03-02 22:06:19,871 - INFO - Acessando o site...
+2025-03-02 22:06:27,998 - INFO - Preenchendo a chave de acesso...
+2025-03-02 22:06:28,059 - INFO - Chave de acesso preenchida com sucesso!
+2025-03-02 22:06:28,060 - INFO - Obtendo sitekey do CAPTCHA...
+2025-03-02 22:06:28,071 - INFO - Enviando CAPTCHA para resolução...
+2025-03-02 22:06:49,935 - INFO - CAPTCHA resolvido com sucesso!
+2025-03-02 22:06:49,936 - ERROR - Erro fatal no Workflow 2: fill_captcha_and_submit() missing 1 required positional argument: 'chave_acesso'
+2025-03-02 22:09:02,161 - INFO - Chave de Acesso lida com sucesso: 51241115009178000170550020004095361685071808
+2025-03-02 22:09:03,140 - INFO - Acessando o site...
+2025-03-02 22:09:11,220 - INFO - Preenchendo a chave de acesso...
+2025-03-02 22:09:11,284 - INFO - Chave de acesso preenchida com sucesso!
+2025-03-02 22:09:11,284 - INFO - Obtendo sitekey do CAPTCHA...
+2025-03-02 22:09:11,295 - INFO - Enviando CAPTCHA para resolução...
+2025-03-02 22:09:22,359 - INFO - CAPTCHA resolvido com sucesso!
+2025-03-02 22:09:22,359 - INFO - Tentativa 1: Inserindo solução do CAPTCHA...
+2025-03-02 22:09:23,586 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 22:09:34,895 - WARNING - Tentativa 1 falhou. Clicando no botão 'Limpar' e tentando novamente...
+2025-03-02 22:09:34,900 - ERROR - Erro ao enviar CAPTCHA na tentativa 1: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#ctl00_ContentPlaceHolder1_btnLimparHCaptcha"}
+  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF704B16EE5+28773]
+	(No symbol) [0x00007FF704A825D0]
+	(No symbol) [0x00007FF704918FAA]
+	(No symbol) [0x00007FF70496F286]
+	(No symbol) [0x00007FF70496F4BC]
+	(No symbol) [0x00007FF7049C2A27]
+	(No symbol) [0x00007FF70499728F]
+	(No symbol) [0x00007FF7049BF6F3]
+	(No symbol) [0x00007FF704997023]
+	(No symbol) [0x00007FF70495FF5E]
+	(No symbol) [0x00007FF7049611E3]
+	GetHandleVerifier [0x00007FF704E6422D+3490733]
+	GetHandleVerifier [0x00007FF704E7BA13+3586963]
+	GetHandleVerifier [0x00007FF704E7144D+3544525]
+	GetHandleVerifier [0x00007FF704BDC9AA+838442]
+	(No symbol) [0x00007FF704A8D01F]
+	(No symbol) [0x00007FF704A895E4]
+	(No symbol) [0x00007FF704A89786]
+	(No symbol) [0x00007FF704A78CB9]
+	BaseThreadInitThunk [0x00007FFED99EE8D7+23]
+	RtlUserThreadStart [0x00007FFEDAFDBF2C+44]
+
+2025-03-02 22:09:34,901 - INFO - Tentativa 2: Inserindo solução do CAPTCHA...
+2025-03-02 22:09:34,904 - ERROR - Erro ao enviar CAPTCHA na tentativa 2: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id^='h-captcha-response']"}
+  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF704B16EE5+28773]
+	(No symbol) [0x00007FF704A825D0]
+	(No symbol) [0x00007FF704918FAA]
+	(No symbol) [0x00007FF70496F286]
+	(No symbol) [0x00007FF70496F4BC]
+	(No symbol) [0x00007FF7049C2A27]
+	(No symbol) [0x00007FF70499728F]
+	(No symbol) [0x00007FF7049BF6F3]
+	(No symbol) [0x00007FF704997023]
+	(No symbol) [0x00007FF70495FF5E]
+	(No symbol) [0x00007FF7049611E3]
+	GetHandleVerifier [0x00007FF704E6422D+3490733]
+	GetHandleVerifier [0x00007FF704E7BA13+3586963]
+	GetHandleVerifier [0x00007FF704E7144D+3544525]
+	GetHandleVerifier [0x00007FF704BDC9AA+838442]
+	(No symbol) [0x00007FF704A8D01F]
+	(No symbol) [0x00007FF704A895E4]
+	(No symbol) [0x00007FF704A89786]
+	(No symbol) [0x00007FF704A78CB9]
+	BaseThreadInitThunk [0x00007FFED99EE8D7+23]
+	RtlUserThreadStart [0x00007FFEDAFDBF2C+44]
+
+2025-03-02 22:09:34,905 - INFO - Tentativa 3: Inserindo solução do CAPTCHA...
+2025-03-02 22:09:34,908 - ERROR - Erro ao enviar CAPTCHA na tentativa 3: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id^='h-captcha-response']"}
+  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF704B16EE5+28773]
+	(No symbol) [0x00007FF704A825D0]
+	(No symbol) [0x00007FF704918FAA]
+	(No symbol) [0x00007FF70496F286]
+	(No symbol) [0x00007FF70496F4BC]
+	(No symbol) [0x00007FF7049C2A27]
+	(No symbol) [0x00007FF70499728F]
+	(No symbol) [0x00007FF7049BF6F3]
+	(No symbol) [0x00007FF704997023]
+	(No symbol) [0x00007FF70495FF5E]
+	(No symbol) [0x00007FF7049611E3]
+	GetHandleVerifier [0x00007FF704E6422D+3490733]
+	GetHandleVerifier [0x00007FF704E7BA13+3586963]
+	GetHandleVerifier [0x00007FF704E7144D+3544525]
+	GetHandleVerifier [0x00007FF704BDC9AA+838442]
+	(No symbol) [0x00007FF704A8D01F]
+	(No symbol) [0x00007FF704A895E4]
+	(No symbol) [0x00007FF704A89786]
+	(No symbol) [0x00007FF704A78CB9]
+	BaseThreadInitThunk [0x00007FFED99EE8D7+23]
+	RtlUserThreadStart [0x00007FFEDAFDBF2C+44]
+
+2025-03-02 22:09:34,908 - ERROR - Número máximo de tentativas atingido. Falha no CAPTCHA.
+2025-03-02 22:09:34,908 - ERROR - Erro fatal no Workflow 2: Erro ao submeter o formulário após 3 tentativas.
+2025-03-02 22:12:22,924 - INFO - Chave de Acesso lida com sucesso: 51241115009178000170550020004095361685071808
+2025-03-02 22:12:23,881 - INFO - Acessando o site...
+2025-03-02 22:12:31,718 - INFO - Preenchendo a chave de acesso...
+2025-03-02 22:12:31,780 - INFO - Chave de acesso preenchida com sucesso!
+2025-03-02 22:12:31,780 - INFO - Obtendo sitekey do CAPTCHA...
+2025-03-02 22:12:31,791 - INFO - Enviando CAPTCHA para resolução...
+2025-03-02 22:13:04,422 - INFO - CAPTCHA resolvido com sucesso!
+2025-03-02 22:13:04,423 - INFO - Tentativa 1: Inserindo solução do CAPTCHA...
+2025-03-02 22:13:05,690 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 22:13:16,127 - WARNING - Tentativa 1 falhou. Clicando no botão 'Limpar' e tentando novamente...
+2025-03-02 22:13:19,475 - INFO - Reinserindo a Chave de Acesso...
+2025-03-02 22:13:21,549 - INFO - Tentativa 2: Inserindo solução do CAPTCHA...
+2025-03-02 22:13:22,785 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 22:13:33,191 - WARNING - Tentativa 2 falhou. Clicando no botão 'Limpar' e tentando novamente...
+2025-03-02 22:13:36,532 - INFO - Reinserindo a Chave de Acesso...
+2025-03-02 22:13:38,594 - INFO - Tentativa 3: Inserindo solução do CAPTCHA...
+2025-03-02 22:13:39,850 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 22:13:50,264 - WARNING - Tentativa 3 falhou. Clicando no botão 'Limpar' e tentando novamente...
+2025-03-02 22:13:53,626 - INFO - Reinserindo a Chave de Acesso...
+2025-03-02 22:13:55,695 - ERROR - Número máximo de tentativas atingido. Falha no CAPTCHA.
+2025-03-02 22:13:55,695 - ERROR - Erro fatal no Workflow 2: Erro ao submeter o formulário após 3 tentativas.
+2025-03-02 22:14:05,684 - INFO - Chave de Acesso lida com sucesso: 51241115009178000170550020004095361685071808
+2025-03-02 22:14:06,644 - INFO - Acessando o site...
+2025-03-02 22:14:14,746 - INFO - Preenchendo a chave de acesso...
+2025-03-02 22:14:14,810 - INFO - Chave de acesso preenchida com sucesso!
+2025-03-02 22:14:14,810 - INFO - Obtendo sitekey do CAPTCHA...
+2025-03-02 22:14:14,819 - INFO - Enviando CAPTCHA para resolução...
+2025-03-02 22:15:13,911 - INFO - CAPTCHA resolvido com sucesso!
+2025-03-02 22:15:13,911 - INFO - Tentativa 1: Inserindo solução do CAPTCHA...
+2025-03-02 22:15:15,162 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 22:15:27,004 - INFO - Botão 'Limpar' não encontrado. CAPTCHA provavelmente foi aceito. Saindo do loop.
+2025-03-02 22:15:27,004 - INFO - Extraindo dados da consulta...
+2025-03-02 22:15:27,009 - ERROR - Erro ao extrair dados: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#NFe > fieldset:nth-child(5)"}
+  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF704B16EE5+28773]
+	(No symbol) [0x00007FF704A825D0]
+	(No symbol) [0x00007FF704918FAA]
+	(No symbol) [0x00007FF70496F286]
+	(No symbol) [0x00007FF70496F4BC]
+	(No symbol) [0x00007FF7049C2A27]
+	(No symbol) [0x00007FF70499728F]
+	(No symbol) [0x00007FF7049BF6F3]
+	(No symbol) [0x00007FF704997023]
+	(No symbol) [0x00007FF70495FF5E]
+	(No symbol) [0x00007FF7049611E3]
+	GetHandleVerifier [0x00007FF704E6422D+3490733]
+	GetHandleVerifier [0x00007FF704E7BA13+3586963]
+	GetHandleVerifier [0x00007FF704E7144D+3544525]
+	GetHandleVerifier [0x00007FF704BDC9AA+838442]
+	(No symbol) [0x00007FF704A8D01F]
+	(No symbol) [0x00007FF704A895E4]
+	(No symbol) [0x00007FF704A89786]
+	(No symbol) [0x00007FF704A78CB9]
+	BaseThreadInitThunk [0x00007FFED99EE8D7+23]
+	RtlUserThreadStart [0x00007FFEDAFDBF2C+44]
+
+2025-03-02 22:15:27,009 - ERROR - Erro fatal no Workflow 2: Erro ao extrair os dados do site.
+2025-03-02 22:19:13,772 - INFO - Chave de Acesso lida com sucesso: 51241115009178000170550020004095361685071808
+2025-03-02 22:19:14,747 - INFO - Acessando o site...
+2025-03-02 22:19:22,953 - INFO - Preenchendo a chave de acesso...
+2025-03-02 22:19:23,017 - INFO - Chave de acesso preenchida com sucesso!
+2025-03-02 22:19:23,017 - INFO - Obtendo sitekey do CAPTCHA...
+2025-03-02 22:19:23,027 - INFO - Enviando CAPTCHA para resolução...
+2025-03-02 22:19:39,304 - INFO - CAPTCHA resolvido com sucesso!
+2025-03-02 22:19:39,304 - INFO - Tentativa 1: Inserindo solução do CAPTCHA...
+2025-03-02 22:19:40,567 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 22:19:51,910 - INFO - Botão 'Limpar' não encontrado. CAPTCHA provavelmente foi aceito. Saindo do loop.
+2025-03-02 22:19:51,910 - INFO - Extraindo dados da consulta...
+2025-03-02 22:20:07,042 - ERROR - Erro ao extrair dados: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF704B16EE5+28773]
+	(No symbol) [0x00007FF704A825D0]
+	(No symbol) [0x00007FF704918FAA]
+	(No symbol) [0x00007FF70496F286]
+	(No symbol) [0x00007FF70496F4BC]
+	(No symbol) [0x00007FF7049C2A27]
+	(No symbol) [0x00007FF70499728F]
+	(No symbol) [0x00007FF7049BF6F3]
+	(No symbol) [0x00007FF704997023]
+	(No symbol) [0x00007FF70495FF5E]
+	(No symbol) [0x00007FF7049611E3]
+	GetHandleVerifier [0x00007FF704E6422D+3490733]
+	GetHandleVerifier [0x00007FF704E7BA13+3586963]
+	GetHandleVerifier [0x00007FF704E7144D+3544525]
+	GetHandleVerifier [0x00007FF704BDC9AA+838442]
+	(No symbol) [0x00007FF704A8D01F]
+	(No symbol) [0x00007FF704A895E4]
+	(No symbol) [0x00007FF704A89786]
+	(No symbol) [0x00007FF704A78CB9]
+	BaseThreadInitThunk [0x00007FFED99EE8D7+23]
+	RtlUserThreadStart [0x00007FFEDAFDBF2C+44]
+
+2025-03-02 22:20:07,044 - ERROR - Erro fatal no Workflow 2: Erro ao extrair os dados do site.
+2025-03-02 22:23:22,614 - INFO - Chave de Acesso lida com sucesso: 51241115009178000170550020004095361685071808
+2025-03-02 22:23:23,600 - INFO - Acessando o site...
+2025-03-02 22:23:37,842 - INFO - Preenchendo a chave de acesso...
+2025-03-02 22:23:37,903 - INFO - Chave de acesso preenchida com sucesso!
+2025-03-02 22:23:37,903 - INFO - Obtendo sitekey do CAPTCHA...
+2025-03-02 22:23:37,914 - INFO - Enviando CAPTCHA para resolução...
+2025-03-02 22:23:54,399 - INFO - CAPTCHA resolvido com sucesso!
+2025-03-02 22:23:54,399 - INFO - Tentativa 1: Inserindo solução do CAPTCHA...
+2025-03-02 22:23:55,633 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 22:24:07,240 - INFO - Botão 'Limpar' não encontrado. CAPTCHA provavelmente foi aceito. Saindo do loop.
+2025-03-02 22:24:07,241 - INFO - Extraindo dados da consulta via JavaScript...
+2025-03-02 22:24:07,244 - INFO - Dados extraídos via JavaScript e salvos com sucesso!
+2025-03-02 22:24:07,244 - INFO - Workflow 2 concluído com sucesso!
+2025-03-02 22:32:55,347 - INFO - Chave de Acesso lida com sucesso: 51241115009178000170550020004095361685071808
+2025-03-02 22:32:56,326 - INFO - Acessando o site...
+2025-03-02 22:33:07,357 - INFO - Preenchendo a chave de acesso...
+2025-03-02 22:33:07,418 - INFO - Chave de acesso preenchida com sucesso!
+2025-03-02 22:33:07,418 - INFO - Obtendo sitekey do CAPTCHA...
+2025-03-02 22:33:07,430 - INFO - Enviando CAPTCHA para resolução...
+2025-03-02 22:34:02,558 - INFO - CAPTCHA resolvido com sucesso!
+2025-03-02 22:34:02,559 - INFO - Tentativa 1: Inserindo solução do CAPTCHA...
+2025-03-02 22:34:03,842 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 22:34:14,596 - WARNING - Tentativa 1 falhou. Clicando no botão 'Limpar' e tentando novamente...
+2025-03-02 22:34:17,943 - INFO - Reinserindo a Chave de Acesso...
+2025-03-02 22:34:20,012 - INFO - Tentativa 2: Inserindo solução do CAPTCHA...
+2025-03-02 22:34:21,275 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 22:34:31,658 - WARNING - Tentativa 2 falhou. Clicando no botão 'Limpar' e tentando novamente...
+2025-03-02 22:34:35,003 - INFO - Reinserindo a Chave de Acesso...
+2025-03-02 22:34:37,066 - INFO - Tentativa 3: Inserindo solução do CAPTCHA...
+2025-03-02 22:34:38,337 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 22:34:48,754 - WARNING - Tentativa 3 falhou. Clicando no botão 'Limpar' e tentando novamente...
+2025-03-02 22:34:52,100 - INFO - Reinserindo a Chave de Acesso...
+2025-03-02 22:34:54,174 - ERROR - Número máximo de tentativas atingido. Falha no CAPTCHA.
+2025-03-02 22:34:54,174 - ERROR - Erro fatal no Workflow 2: Erro ao submeter o formulário após 3 tentativas.
+2025-03-02 22:35:10,470 - INFO - Chave de Acesso lida com sucesso: 51241115009178000170550020004095361685071808
+2025-03-02 22:35:11,439 - INFO - Acessando o site...
+2025-03-02 22:35:19,064 - INFO - Preenchendo a chave de acesso...
+2025-03-02 22:35:19,125 - INFO - Chave de acesso preenchida com sucesso!
+2025-03-02 22:35:19,125 - INFO - Obtendo sitekey do CAPTCHA...
+2025-03-02 22:35:19,136 - INFO - Enviando CAPTCHA para resolução...
+2025-03-02 22:36:02,136 - INFO - CAPTCHA resolvido com sucesso!
+2025-03-02 22:36:02,137 - INFO - Tentativa 1: Inserindo solução do CAPTCHA...
+2025-03-02 22:36:03,409 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 22:36:14,575 - INFO - Botão 'Limpar' não encontrado. CAPTCHA provavelmente foi aceito. Saindo do loop.
+2025-03-02 22:36:14,575 - INFO - Extraindo dados da consulta via Selenium...
+2025-03-02 22:36:14,587 - INFO - Dados extraídos via Selenium e salvos com sucesso!
+2025-03-02 22:36:14,588 - INFO - Workflow 2 concluído com sucesso!
+2025-03-02 23:05:41,152 - INFO - Agendador iniciado às 23:05:41. Aguardando execução dos workflows...
+2025-03-02 23:08:58,718 - INFO - Iniciando execução manual dos workflows...
+2025-03-02 23:08:58,718 - INFO - Iniciando extração da chave da nota fiscal...
+2025-03-02 23:09:00,720 - INFO - Texto extraído do PDF:
+nota fiscal eletrônica (nf-e)
+chave de acesso:
+5124 1115 0091 7800 0170 5500 2000 4100 6911 0934 2453
+dados da nf-e:
+número: 000000
+versão xml: 4.00
+modelo: 55
+série: 0
+data de emissão: 01/01/2025 00:00:00-00:00
+valor total: 0,00
+emitente: empresa xyz
+cnpj: 00.000.000/0000-00
+uf: xx
+destinatário: empresa abc
+tipo da operação: 1 - saída
+situação: autorizada
+2025-03-02 23:09:00,720 - INFO - Chave extraída com sucesso: 51241115009178000170550020004100691109342453
+2025-03-02 23:09:00,721 - INFO - Chave salva no arquivo: C:\Users\ander\Documents\treinamento\rpa_orquestrador_c_encerrar\arquivos\chave_acesso.txt
+2025-03-02 23:32:20,715 - INFO - Agendador iniciado às 23:32:20. Aguardando execução dos workflows...
+2025-03-02 23:32:53,629 - INFO - Agendador iniciado às 23:32:53. Aguardando execução dos workflows...
+2025-03-02 23:41:02,296 - INFO - Agendador iniciado às 23:41:02.
+2025-03-02 23:41:12,308 - INFO - Agendador encerrado manualmente.
+2025-03-02 23:42:16,653 - INFO - Agendador iniciado às 23:42:16.
+2025-03-02 23:42:26,655 - INFO - Executando extração da chave da nota fiscal...
+2025-03-02 23:42:26,655 - INFO - Iniciando extração da chave da nota fiscal...
+2025-03-02 23:42:28,657 - INFO - Texto extraído do PDF:
+nota fiscal eletrônica (nf-e)
+chave de acesso:
+5124 1115 0091 7800 0170 5500 2000 4100 6911 0934 2453
+dados da nf-e:
+número: 000000
+versão xml: 4.00
+modelo: 55
+série: 0
+data de emissão: 01/01/2025 00:00:00-00:00
+valor total: 0,00
+emitente: empresa xyz
+cnpj: 00.000.000/0000-00
+uf: xx
+destinatário: empresa abc
+tipo da operação: 1 - saída
+situação: autorizada
+2025-03-02 23:42:28,658 - INFO - Chave extraída com sucesso: 51241115009178000170550020004100691109342453
+2025-03-02 23:42:28,658 - INFO - Chave salva no arquivo: C:\Users\ander\Documents\treinamento\rpa_orquestrador_c_encerrar\arquivos\chave_acesso.txt
+2025-03-02 23:43:06,654 - INFO - Executando consulta no site do governo...
+2025-03-02 23:45:06,666 - INFO - Gerando relatório Excel...
+2025-03-02 23:45:06,666 - INFO - Verificando existência do arquivo de extração...
+2025-03-02 23:45:06,667 - ERROR - Erro ao gerar relatório Excel: Arquivo não encontrado: C:\Users\ander\Documents\treinamento\rpa_orquestrador_c_encerrar\arquivos\resultado_extracao.txt
+2025-03-02 23:56:51,215 - INFO - Agendador iniciado às 23:56:51.
+2025-03-02 23:57:01,217 - INFO - Executando extração da chave da nota fiscal...
+2025-03-02 23:57:01,217 - INFO - Iniciando extração da chave da nota fiscal...
+2025-03-02 23:57:03,219 - INFO - Texto extraído do PDF:
+nota fiscal eletrônica (nf-e)
+chave de acesso:
+5124 1115 0091 7800 0170 5500 2000 4100 6911 0934 2453
+dados da nf-e:
+número: 000000
+versão xml: 4.00
+modelo: 55
+série: 0
+data de emissão: 01/01/2025 00:00:00-00:00
+valor total: 0,00
+emitente: empresa xyz
+cnpj: 00.000.000/0000-00
+uf: xx
+destinatário: empresa abc
+tipo da operação: 1 - saída
+situação: autorizada
+2025-03-02 23:57:03,220 - INFO - Chave extraída com sucesso: 51241115009178000170550020004100691109342453
+2025-03-02 23:57:03,220 - INFO - Chave salva no arquivo: C:\Users\ander\Documents\treinamento\rpa_orquestrador_c_encerrar\arquivos\chave_acesso.txt
+2025-03-02 23:57:41,217 - INFO - Executando consulta no site do governo...
+2025-03-02 23:57:41,217 - INFO - Iniciando consulta no site do governo...
+2025-03-02 23:57:41,219 - INFO - Chave de Acesso lida com sucesso: 51241115009178000170550020004100691109342453
+2025-03-02 23:57:42,212 - INFO - Acessando o site...
+2025-03-02 23:57:50,840 - INFO - Preenchendo a chave de acesso...
+2025-03-02 23:57:50,900 - INFO - Chave de acesso preenchida com sucesso!
+2025-03-02 23:57:50,900 - INFO - Obtendo sitekey do CAPTCHA...
+2025-03-02 23:57:50,911 - INFO - Enviando CAPTCHA para resolução...
+2025-03-02 23:58:07,417 - INFO - CAPTCHA resolvido com sucesso!
+2025-03-02 23:58:07,417 - INFO - Tentativa 1: Inserindo solução do CAPTCHA...
+2025-03-02 23:58:08,659 - INFO - Clicando no botão 'Continuar'...
+2025-03-02 23:58:21,543 - INFO - Tentativa 2: Inserindo solução do CAPTCHA...
+2025-03-02 23:58:21,547 - ERROR - Erro ao enviar CAPTCHA na tentativa 2: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id^='h-captcha-response']"}
+  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF704B16EE5+28773]
+	(No symbol) [0x00007FF704A825D0]
+	(No symbol) [0x00007FF704918FAA]
+	(No symbol) [0x00007FF70496F286]
+	(No symbol) [0x00007FF70496F4BC]
+	(No symbol) [0x00007FF7049C2A27]
+	(No symbol) [0x00007FF70499728F]
+	(No symbol) [0x00007FF7049BF6F3]
+	(No symbol) [0x00007FF704997023]
+	(No symbol) [0x00007FF70495FF5E]
+	(No symbol) [0x00007FF7049611E3]
+	GetHandleVerifier [0x00007FF704E6422D+3490733]
+	GetHandleVerifier [0x00007FF704E7BA13+3586963]
+	GetHandleVerifier [0x00007FF704E7144D+3544525]
+	GetHandleVerifier [0x00007FF704BDC9AA+838442]
+	(No symbol) [0x00007FF704A8D01F]
+	(No symbol) [0x00007FF704A895E4]
+	(No symbol) [0x00007FF704A89786]
+	(No symbol) [0x00007FF704A78CB9]
+	BaseThreadInitThunk [0x00007FFED99EE8D7+23]
+	RtlUserThreadStart [0x00007FFEDAFDBF2C+44]
+
+2025-03-02 23:58:21,547 - INFO - Tentativa 3: Inserindo solução do CAPTCHA...
+2025-03-02 23:58:21,550 - ERROR - Erro ao enviar CAPTCHA na tentativa 3: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id^='h-captcha-response']"}
+  (Session info: chrome=133.0.6943.142); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF704B16EE5+28773]
+	(No symbol) [0x00007FF704A825D0]
+	(No symbol) [0x00007FF704918FAA]
+	(No symbol) [0x00007FF70496F286]
+	(No symbol) [0x00007FF70496F4BC]
+	(No symbol) [0x00007FF7049C2A27]
+	(No symbol) [0x00007FF70499728F]
+	(No symbol) [0x00007FF7049BF6F3]
+	(No symbol) [0x00007FF704997023]
+	(No symbol) [0x00007FF70495FF5E]
+	(No symbol) [0x00007FF7049611E3]
+	GetHandleVerifier [0x00007FF704E6422D+3490733]
+	GetHandleVerifier [0x00007FF704E7BA13+3586963]
+	GetHandleVerifier [0x00007FF704E7144D+3544525]
+	GetHandleVerifier [0x00007FF704BDC9AA+838442]
+	(No symbol) [0x00007FF704A8D01F]
+	(No symbol) [0x00007FF704A895E4]
+	(No symbol) [0x00007FF704A89786]
+	(No symbol) [0x00007FF704A78CB9]
+	BaseThreadInitThunk [0x00007FFED99EE8D7+23]
+	RtlUserThreadStart [0x00007FFEDAFDBF2C+44]
+
+2025-03-02 23:58:21,551 - ERROR - Número máximo de tentativas atingido. Falha no CAPTCHA.
+2025-03-02 23:58:21,551 - ERROR - Erro fatal no Workflow 2: Erro ao submeter o formulário após 3 tentativas.
+2025-03-02 23:59:41,226 - INFO - Gerando relatório Excel...
+2025-03-02 23:59:41,226 - INFO - Verificando existência do arquivo de extração...
+2025-03-02 23:59:41,227 - ERROR - Erro ao gerar relatório Excel: Arquivo não encontrado: C:\Users\ander\Documents\treinamento\rpa_orquestrador_c_encerrar\arquivos\resultado_extracao.txt
+2025-03-03 00:02:38,860 - INFO - Agendador iniciado às 00:02:38.
+2025-03-03 00:02:48,865 - INFO - Executando extração da chave da nota fiscal...
+2025-03-03 00:02:48,866 - INFO - Iniciando extração da chave da nota fiscal...
+2025-03-03 00:02:49,868 - INFO - Texto extraído do PDF:
+nota fiscal eletrônica (nf-e)
+chave de acesso:
+5124 1115 0091 7800 0170 5500 2000 4100 6911 0934 2453
+dados da nf-e:
+número: 000000
+versão xml: 4.00
+modelo: 55
+série: 0
+data de emissão: 01/01/2025 00:00:00-00:00
+valor total: 0,00
+emitente: empresa xyz
+cnpj: 00.000.000/0000-00
+uf: xx
+destinatário: empresa abc
+tipo da operação: 1 - saída
+situação: autorizada
+2025-03-03 00:02:49,868 - INFO - Chave extraída com sucesso: 51241115009178000170550020004100691109342453
+2025-03-03 00:02:49,869 - INFO - Chave salva no arquivo: C:\Users\ander\Documents\treinamento\rpa_orquestrador_c_encerrar\arquivos\chave_acesso.txt
+2025-03-03 00:03:28,866 - INFO - Executando consulta no site do governo...
+2025-03-03 00:03:28,867 - INFO - Iniciando consulta no site do governo...
+2025-03-03 00:03:28,868 - INFO - Chave de Acesso lida com sucesso: 51241115009178000170550020004100691109342453
+2025-03-03 00:03:29,842 - INFO - Acessando o site...
+2025-03-03 00:03:37,974 - INFO - Preenchendo a chave de acesso...
+2025-03-03 00:03:38,036 - INFO - Chave de acesso preenchida com sucesso!
+2025-03-03 00:03:38,036 - INFO - Obtendo sitekey do CAPTCHA...
+2025-03-03 00:03:38,047 - INFO - Enviando CAPTCHA para resolução...
+2025-03-03 00:04:20,789 - INFO - CAPTCHA resolvido com sucesso!
+2025-03-03 00:04:20,789 - INFO - Tentativa 1: Inserindo solução do CAPTCHA...
+2025-03-03 00:04:22,110 - INFO - Clicando no botão 'Continuar'...
+2025-03-03 00:04:32,552 - INFO - Tentativa 2: Inserindo solução do CAPTCHA...
+2025-03-03 00:04:33,848 - INFO - Clicando no botão 'Continuar'...
+2025-03-03 00:04:44,241 - INFO - Tentativa 3: Inserindo solução do CAPTCHA...
+2025-03-03 00:04:45,528 - INFO - Clicando no botão 'Continuar'...
+2025-03-03 00:04:55,931 - ERROR - Número máximo de tentativas atingido. Falha no CAPTCHA.
+2025-03-03 00:04:55,931 - ERROR - Erro fatal no Workflow 2: Erro ao submeter o formulário após 3 tentativas.
+2025-03-03 00:05:28,873 - INFO - Gerando relatório Excel...
+2025-03-03 00:05:28,873 - INFO - Verificando existência do arquivo de extração...
+2025-03-03 00:05:28,874 - ERROR - Erro ao gerar relatório Excel: Arquivo não encontrado: C:\Users\ander\Documents\treinamento\rpa_orquestrador_c_encerrar\arquivos\resultado_extracao.txt
+2025-03-03 00:05:38,875 - INFO - Todas as tarefas foram concluídas. Encerrando o agendador...
+2025-03-03 00:05:43,874 - INFO - Agendador encerrado automaticamente.
+2025-03-03 00:08:38,569 - INFO - Agendador iniciado às 00:08:38.
+2025-03-03 00:08:48,582 - INFO - Executando extração da chave da nota fiscal...
+2025-03-03 00:08:48,582 - INFO - Iniciando extração da chave da nota fiscal...
+2025-03-03 00:08:49,585 - INFO - Texto extraído do PDF:
+nota fiscal eletrônica (nf-e)
+chave de acesso:
+5124 1115 0091 7800 0170 5500 2000 4100 6911 0934 2453
+dados da nf-e:
+número: 000000
+versão xml: 4.00
+modelo: 55
+série: 0
+data de emissão: 01/01/2025 00:00:00-00:00
+valor total: 0,00
+emitente: empresa xyz
+cnpj: 00.000.000/0000-00
+uf: xx
+destinatário: empresa abc
+tipo da operação: 1 - saída
+situação: autorizada
+2025-03-03 00:08:49,586 - INFO - Chave extraída com sucesso: 51241115009178000170550020004100691109342453
+2025-03-03 00:08:49,586 - INFO - Chave salva no arquivo: C:\Users\ander\Documents\treinamento\rpa_orquestrador_c_encerrar\arquivos\chave_acesso.txt
+2025-03-03 00:09:28,571 - INFO - Executando consulta no site do governo...
+2025-03-03 00:09:28,571 - INFO - Iniciando consulta no site do governo...
+2025-03-03 00:09:28,573 - INFO - Chave de Acesso lida com sucesso: 51241115009178000170550020004100691109342453
+2025-03-03 00:09:29,557 - INFO - Acessando o site...
+2025-03-03 00:09:37,644 - INFO - Preenchendo a chave de acesso...
+2025-03-03 00:09:37,701 - INFO - Chave de acesso preenchida com sucesso!
+2025-03-03 00:09:37,701 - INFO - Obtendo sitekey do CAPTCHA...
+2025-03-03 00:09:37,713 - INFO - Enviando CAPTCHA para resolução...
+2025-03-03 00:10:52,371 - INFO - CAPTCHA resolvido com sucesso!
+2025-03-03 00:10:52,372 - INFO - Tentativa 1: Inserindo solução do CAPTCHA...
+2025-03-03 00:10:53,546 - INFO - Clicando no botão 'Continuar'...
+2025-03-03 00:11:04,296 - INFO - Tentativa 2: Inserindo solução do CAPTCHA...
+2025-03-03 00:11:05,459 - INFO - Clicando no botão 'Continuar'...
+2025-03-03 00:11:15,851 - INFO - Tentativa 3: Inserindo solução do CAPTCHA...
+2025-03-03 00:11:17,014 - INFO - Clicando no botão 'Continuar'...
+2025-03-03 00:11:27,395 - ERROR - Número máximo de tentativas atingido. Falha no CAPTCHA.
+2025-03-03 00:11:27,395 - ERROR - Erro fatal no Workflow 2: Erro ao submeter o formulário após 3 tentativas.
+2025-03-03 00:11:28,580 - INFO - Gerando relatório Excel...
+2025-03-03 00:11:28,580 - INFO - Verificando existência do arquivo de extração...
+2025-03-03 00:11:28,581 - ERROR - Erro ao gerar relatório Excel: Arquivo não encontrado: C:\Users\ander\Documents\treinamento\rpa_orquestrador_c_encerrar\arquivos\resultado_extracao.txt
+2025-03-03 00:11:38,581 - INFO - Todas as tarefas foram concluídas. Encerrando o agendador...
+2025-03-03 00:11:43,582 - INFO - Agendador encerrado automaticamente.

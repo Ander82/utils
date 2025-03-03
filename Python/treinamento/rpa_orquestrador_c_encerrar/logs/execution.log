@@ -1,0 +1,109 @@
+2025-03-02 20:41:35,950 - INFO - Agendador iniciado...
+2025-03-02 20:45:00,005 - INFO - Executando Workflow 2 - Consulta no site .gov
+2025-03-02 20:45:00,006 - INFO - Acessando site .gov para checar informações...
+2025-03-02 20:45:02,006 - INFO - Informações obtidas com sucesso!
+2025-03-02 21:17:20,774 - INFO - Iniciando extração da chave da nota fiscal...
+2025-03-02 21:17:22,789 - ERROR - Erro na extração da chave: Chave de acesso não encontrada no PDF
+2025-03-02 21:18:53,271 - INFO - Iniciando extração da chave da nota fiscal...
+2025-03-02 21:18:55,273 - INFO - Texto extraído do PDF:
+Nota Fiscal Eletrônica (NF-e)
+Chave de Acesso:
+5124 1115 0091 7800 0170 5500 2000 4100 6911 0934 2453
+Dados da NF-e:
+Número: 000000
+Versão XML: 4.00
+Modelo: 55
+Série: 0
+Data de Emissão: 01/01/2025 00:00:00-00:00
+Valor Total: 0,00
+Emitente: Empresa XYZ
+CNPJ: 00.000.000/0000-00
+UF: XX
+Destinatário: Empresa ABC
+Tipo da Operação: 1 - Saída
+Situação: AUTORIZADA
+
+2025-03-02 21:18:55,274 - ERROR - Erro na extração da chave: Chave de acesso não encontrada no PDF
+2025-03-02 21:20:46,754 - INFO - Iniciando extração da chave da nota fiscal...
+2025-03-02 21:20:47,756 - INFO - Texto extraído do PDF:
+nota fiscal eletrônica (nf-e)
+chave de acesso:
+5124 1115 0091 7800 0170 5500 2000 4100 6911 0934 2453
+dados da nf-e:
+número: 000000
+versão xml: 4.00
+modelo: 55
+série: 0
+data de emissão: 01/01/2025 00:00:00-00:00
+valor total: 0,00
+emitente: empresa xyz
+cnpj: 00.000.000/0000-00
+uf: xx
+destinatário: empresa abc
+tipo da operação: 1 - saída
+situação: autorizada
+2025-03-02 21:20:47,757 - INFO - Chave extraída com sucesso: 51241115009178000170550020004100691109342453
+2025-03-02 21:25:33,145 - INFO - Iniciando extração da chave da nota fiscal...
+2025-03-02 21:25:36,148 - INFO - Texto extraído do PDF:
+nota fiscal eletrônica (nf-e)
+chave de acesso:
+5124 1115 0091 7800 0170 5500 2000 4100 6911 0934 2453
+dados da nf-e:
+número: 000000
+versão xml: 4.00
+modelo: 55
+série: 0
+data de emissão: 01/01/2025 00:00:00-00:00
+valor total: 0,00
+emitente: empresa xyz
+cnpj: 00.000.000/0000-00
+uf: xx
+destinatário: empresa abc
+tipo da operação: 1 - saída
+situação: autorizada
+2025-03-02 21:25:36,148 - INFO - Chave extraída com sucesso: 51241115009178000170550020004100691109342453
+2025-03-02 21:43:19,964 - INFO - Iniciando extração da chave da nota fiscal...
+2025-03-02 21:43:20,966 - INFO - Texto extraído do PDF:
+nota fiscal eletrônica (nf-e)
+chave de acesso:
+5124 1115 0091 7800 0170 5500 2000 4100 6911 0934 2453
+dados da nf-e:
+número: 000000
+versão xml: 4.00
+modelo: 55
+série: 0
+data de emissão: 01/01/2025 00:00:00-00:00
+valor total: 0,00
+emitente: empresa xyz
+cnpj: 00.000.000/0000-00
+uf: xx
+destinatário: empresa abc
+tipo da operação: 1 - saída
+situação: autorizada
+2025-03-02 21:43:20,967 - INFO - Chave extraída com sucesso: 51241115009178000170550020004100691109342453
+2025-03-02 21:43:20,967 - INFO - Chave salva no arquivo: C:\Users\ander\Documents\treinamento\rpa_orquestrador_c_encerrar\arquivos\chave_acesso.txt
+2025-03-02 21:43:45,641 - INFO - Iniciando extração da chave da nota fiscal...
+2025-03-02 21:43:48,644 - INFO - Texto extraído do PDF:
+nota fiscal eletrônica (nf-e)
+chave de acesso:
+5124 1115 0091 7800 0170 5500 2000 4100 6911 0934 2453
+dados da nf-e:
+número: 000000
+versão xml: 4.00
+modelo: 55
+série: 0
+data de emissão: 01/01/2025 00:00:00-00:00
+valor total: 0,00
+emitente: empresa xyz
+cnpj: 00.000.000/0000-00
+uf: xx
+destinatário: empresa abc
+tipo da operação: 1 - saída
+situação: autorizada
+2025-03-02 21:43:48,644 - INFO - Chave extraída com sucesso: 51241115009178000170550020004100691109342453
+2025-03-02 21:43:48,645 - INFO - Chave salva no arquivo: C:\Users\ander\Documents\treinamento\rpa_orquestrador_c_encerrar\arquivos\chave_acesso.txt
+2025-03-02 22:48:49,192 - INFO - Verificando existência do arquivo de extração...
+2025-03-02 22:48:49,192 - INFO - Lendo os dados do arquivo de extração...
+2025-03-02 22:48:49,195 - INFO - Gerando relatório Excel...
+2025-03-02 22:48:49,364 - INFO - Relatório Excel gerado com sucesso: C:\Users\ander\Documents\treinamento\rpa_orquestrador_c_encerrar\arquivos\resultado_extracao.xlsx
+2025-03-02 22:55:00,982 - INFO - Agendador iniciado para uma única execução...

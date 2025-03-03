@@ -1,0 +1,1 @@
+C:\Users\ander\Pywinauto recorder\recorded Fri Feb 28 06_12_08 2025.py
